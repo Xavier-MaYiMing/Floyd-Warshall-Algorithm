@@ -13,7 +13,7 @@ The Floyd-Warshall Algorithm for the shortest path problem
 
 #### Example
 
-![image-20220704083123627](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220704083123627.png)
+![]([C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220704083123627.png](https://github.com/Xavier-MaYiMing/Floyd-Warshall-Algorithm/blob/main/SPP_example.png))
 
 ```python
 if __name__ == '__main__':
