@@ -31,7 +31,7 @@ def main(network):
         for i in range(nn):
             for j in range(nn):
                 if dis_mat[i][j] > dis_mat[i][k] + dis_mat[k][j]:
-                    dis_mat[i][j] = dis_mat[i][k] + dis_mat[k][i]
+                    dis_mat[i][j] = dis_mat[i][k] + dis_mat[k][j]
                     path_mat[i][j] = path_mat[i][k].copy()
                     path_mat[i][j].pop()
                     path_mat[i][j].extend(path_mat[k][j])
